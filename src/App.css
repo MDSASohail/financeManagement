@@ -1,0 +1,260 @@
+/* Universal Selector */
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* All */
+.backgroundLight {
+  background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+/* ---------------------- */
+
+
+.allTransections::-webkit-scrollbar {
+  width: 12px; 
+}
+
+.allTransections::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+.allTransections::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 6px; 
+}
+
+.allTransections::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.filterOptions {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* ___________ */
+
+
+
+.allItemsAndFilter
+  {
+     width: 80%;
+     margin: auto;
+     
+  }
+.totalDivMT
+{
+   width: 95vw;
+}
+
+.allTransections
+{
+   height: 85vh;
+}
+@media (max-width:700px) {
+
+  .allItemsAndFilter
+  {
+     width: 95%;
+  }
+  /* For First Page */
+  .mainDiv {
+    display: block;
+    height: 100vh;
+
+
+  }
+
+  .mainDiv img {
+    height: 40vh;
+  }
+
+  .contentDiv {
+
+    height: 27vh;
+
+  }
+
+  .contentDiv h1 {
+    font-size: 45px;
+  }
+
+  /* __________________ */
+
+  /* For Sigh Up */
+  .hideShow {
+    display: block;
+  }
+
+  /* _____________________ */
+
+  /* Expense Component */
+  .expenseCom {
+    display: block;
+
+  }
+
+  .innerDiv {
+    width: 100%;
+  }
+
+  .innerDiv .redDiv {
+    height: 40vh;
+  }
+
+  .innerDiv .whiteDiv {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  /* ___________________________ */
+
+
+  /* Home Page */
+  .homeFlex {
+    flex-direction: column-reverse;
+
+  }
+
+  .sideItems {
+    /* border: 3px solid red; */
+    flex: 1;
+    flex-direction: row;
+
+
+  }
+
+  
+
+  .sideItems svg {
+    width: 30px;
+    height: 30px;
+  }
+
+  .text-div {
+    /* flex-grow: 1; */
+    background-color: red;
+    /* flex-shrink: 1; */
+  }
+
+  .allData {
+    /* border: 3px solid blue; */
+    height: 100px;
+    flex: 9;
+  }
+
+  .totalMainDiv {
+    background: linear-gradient(to bottom, #FFF6E5, white);
+    position: absolute;
+    flex-direction: column;
+    width: 100%;
+    height: 99vh;
+    
+
+  }
+
+ 
+
+  
+
+  .allExpenseDiv {
+    display: block;
+  }
+
+ 
+
+  .showHide {
+    display: inline;
+  }
+
+
+
+  /* _______________________ */
+
+
+  /* Monthly Transection Component */
+  .transectionDetail {
+    flex-direction: column;
+    height: calc(100vh - 70px);
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+
+  .monthlyTransectionEachExpense {
+    flex-direction: column;
+
+  }
+
+  .totalDivMT {
+    flex-direction: column;
+  }
+
+  /* _____________ */
+
+
+
+
+   /* Add Expense */
+
+   .addExpense
+   {
+      display: block;
+      height: calc(100vh - 28px)
+   }
+   .mainDiv
+   {
+      width: 100%;
+      height: 100%;
+
+   }
+
+   /* --------------------- */
+
+
+/* AllItemsAndFilters */
+.listFlex
+{
+   flex-direction: column;
+}
+
+
+
+/* ------------- */
+
+
+
+
+
+
+}
+
+@media screen and (min-width:700px) {}
+
+/* ________________________ */
